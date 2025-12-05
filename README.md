@@ -7,24 +7,26 @@ The pipeline includes preprocessing, dimensionality reduction (PCA), class balan
 
 ## Project Structure
 
+```bash
+
 notebooks/
-│── code.ipynb # Main notebook: preprocessing, PCA, SMOTE, ML models
+│── code.ipynb        # Main notebook: preprocessing, PCA, SMOTE, ML models
+
 reports/
-│── Report.pdf # Full project report
+│── Report.pdf        # Full project report
+
 requirements.txt
 .gitignore
 LICENSE
-
-LICENSE
-
+```
 
 ## How to Run
 
 1. Create a virtual environment:
 ```bash
-    python -m venv venv
-    venv\Scripts\activate
-    pip install -r requirements.txt
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 2. Place your dataset inside the data/ folder.
